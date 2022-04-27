@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme">#006597</color>
+    <color name="light_black">#030303</color>
+    <color name="themeOpacity1">#55006597</color>
+    <color name="white">#FFFFFF</color>
+    <color name="dove_gray">#6b6b6b</color>
+    <color name="borderColor">#26006597</color>
+    <color name="alice_blue">#edf5fd</color>
+    <color name="doveGrayOpacity2">#806b6b6b</color>
+</resources>

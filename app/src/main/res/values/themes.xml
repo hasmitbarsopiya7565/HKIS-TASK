@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.HKINFOSOFT" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/theme</item>
+        <item name="colorPrimaryVariant">@color/theme</item>
+        <item name="colorOnPrimary">@color/theme</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:fontFamily">@font/arial</item>
+        <item name="android:letterSpacing" tools:targetApi="lollipop">0.05</item>
+        <item name="android:textColor">@color/light_black</item>
+        <item name="android:textSize">@dimen/fontSize</item>
+        <item name="android:textCursorDrawable">@drawable/cursor_drawable</item>
+        <item name="android:textColorHighlight">@color/themeOpacity1</item>
+    </style>
+
+    <style name="Theme.HKINFOSOFT.NOACTIONBAR" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/theme</item>
+        <item name="colorPrimaryVariant">@color/theme</item>
+        <item name="colorOnPrimary">@color/theme</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:fontFamily">@font/arial</item>
+        <item name="android:letterSpacing" tools:targetApi="lollipop">0.05</item>
+        <item name="android:textColor">@color/light_black</item>
+        <item name="android:textSize">@dimen/fontSize</item>
+        <item name="android:textCursorDrawable">@drawable/cursor_drawable</item>
+        <item name="android:textColorHighlight">@color/themeOpacity1</item>
+    </style>
+
+    <style name="CustomAlertProgresssDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/pop_up_background</item>
+    </style>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">HK INFOSOFT</string>
+    <string name="pleaseWait">Please Wait ...</string>
+    <string name="name">Name :</string>
+    <string name="address">Address :</string>
+    <string name="username">Username</string>
+    <string name="mr">Mr.</string>
+    <string name="dob">DOB :</string>
+    <string name="dd_mm_yyyy">dd-MM-yyyy</string>
+    <string name="email">Email :</string>
+    <string name="emailId">xyz@gmail.com</string>
+    <string name="mobileNo">Mobile No :</string>
+    <string name="next">Next</string>
+    <string name="map">Map</string>
+    <string name="location">Location</string>
+    <string name="gender">Gender :</string>
+    <string name="title_activity_location">Location</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDnc1tezY9h6aZdag4RVFyuJGZI_b6IvWM</string>
+    <string name="back">Back</string>
+    <string name="users">Users</string>
+</resources>

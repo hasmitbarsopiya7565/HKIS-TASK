@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/userListLayout"
+    android:background="@drawable/layout_radius"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="3dp"
+    android:layout_marginBottom="3dp">
+
+    <RelativeLayout
+        android:id="@+id/userDataLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/userProfileIv"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_profile" />
+
+        <RelativeLayout
+            android:layout_toEndOf="@+id/userProfileIv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp">
+
+            <TextView
+                android:id="@+id/userNameTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="Next Innovation"
+                android:textColor="@color/dove_gray"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/userDobTv"
+                android:layout_below="@+id/userNameTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:textColor="@color/doveGrayOpacity2"
+                android:textStyle="bold"
+                android:textSize="@dimen/smallFont"/>
+
+            <TextView
+                android:id="@+id/userAddressTv"
+                android:layout_below="@+id/userDobTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:textColor="@color/doveGrayOpacity2"
+                android:textStyle="bold"
+                android:textSize="@dimen/smallFont"/>
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/viwedByDivider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/viewedByDetailsLayout"
+        android:background="@color/borderColor"
+        android:visibility="gone"/>
+
+
+</RelativeLayout>
